@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "polymer": "polymer/polymer#~0.4.2",
-    "document-register-element": "^1.7.0"
+    "document-register-element": "^1.7.0",
+    "web-component-tester": "^6.5.0"
   }
 }
