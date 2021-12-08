@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>tomalec - Tomek Wytrębowicz</title>
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="./assets/github-markdown-css/github-markdown.min.css" media="all" />
+
+
+	<!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/> -->
+	<!-- <link rel="canonical" href="http://tomalec.github.io" /> -->
+	<meta name="referrer" content="no-referrer-when-downgrade" />
+
+	<meta property="og:site_name" content="Tomek Wytrębowicz" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="About Me" />
+	<meta property="og:description"
+		content="Hi! I&#x27;m Tomek Wytrębowicz, dog-dad, snow- & skateboarder, and software engineer at Automattic. Web Components lover, Vanilla JS, and code-minimalism enthusiast." />
+	<meta property="og:url" content="http://tomalec.github.io" />
+	<meta name="twitter:title" content="About Me" />
+	<meta name="twitter:description"
+		content="Hi! I&#x27;m Tomek Wytrębowicz, dog-dad, snow- & skateboarder, and software engineer at Automattic. Web Components lover, Vanilla JS, and code-minimalism enthusiast." />
+	<meta name="twitter:url" content="http://tomalec.github.io/" />
+	<meta name="twitter:site" content="@tomalecpl" />
+	<meta name="twitter:creator" content="@tomalecpl" />
+
+</head>
+<style>
+	body {
+		color: #45484d;
+		display: grid;
+		grid-template: "profile main"/ auto 1fr;
+		padding: 1em;
+		max-width: 1280px;
+		justify-items: stretch;
+		grid-gap: 2em;
+	}
+
+	body.markdown-body {
+		margin: 0 auto;
+	}
+
+	@media (max-width: 900px) {
+		body {
+			display: block;
+			grid-template: "profile"
+				"main"/ 1fr;
+		}
+
+		.markdown-body h1 {
+			margin-top: 12px;
+		}
+
+		.avatar {
+			float: left;
+			width: 36px;
+			margin-right: 12px;
+		}
+	}
+
+	body>.avatar {
+		grid-area: profile;
+		border: 1px solid #f2f3f3;
+		border-radius: 50%;
+		grid-row: 1 / -1;
+	}
+
+	.markdown-body::before {
+		display: none;
+	}
+
+	body>* {
+		grid-column: main-start;
+	}
+
+	h1 {
+		margin-top: 0 !important;
+		text-transform: uppercase;
+	}
+</style>
+
+<body class="page-template page-about markdown-body">
+	<img style="height:auto; " alt="Avatar" class="avatar" width="120"
+		src="https://avatars.githubusercontent.com/u/17435?s=120&v=4">
+	<main>
+
+		<h1>About me</h1>
+		<p>
+			Hello! I'm Tomek Wytrębowicz, dog-dad, snow- & skateboarder, and software engineer at <a
+				href="automattic.com">Automattic</a>. Web Components lover, Vanilla JS, and code-minimalism enthusiast.
+		</p>
+		<p>
+			Before Automattic, I worked at <a href="https://ckeditor.com">CKEditor</a> - contributing to an awesome rich
+			text editor, and <a href="https://starcounter.com/">Starcounter</a> - making a revolutionary application
+			platform by early-adopting Web Components.
+		</p>
+
+		<h3>Me elsewhere</h3>
+		<p>You can find me on the web here:</p>
+		<ul>
+			<li>GitHub: <a href="https://github.com/tomalec">tomalec</a></li>
+			<li>Twitter: <a href="https://twitter.com/tomalecpl">tomalecpl</a></li>
+			<li>LinkedIn: <a href="https://www.linkedin.com/in/wytrebowicz/">wytrebowicz</a>
+			</li>
+			<li>Instagram: <a href="https://www.instagram.com/tomekwytrebowicz/">tomekwytrebowicz</a>
+			</li>
+		</ul>
+
+		<h3>Projects</h3>
+		<p>
+			Currently, I work at <a href="https://wordpress.com/">WordPress</a> and <a
+				href="https://woocommerce.com/">WooCommerce</a>, making the Web a better place, with an extra plan to
+			introduce
+			modern Web Platform features such as Web Components there.
+		</p>
+		<p>My other source contributions that have a special place in my heart:</p>
+		<ul>
+			<li>The projects I made or lead for some time
+				<ul>
+					<li><a href="https://github.com/Starcounter-Jack/JSON-Patch">JSON-Patch /
+							<code>fast-json-patch</code></a>:
+						JavaScript implementation of the JSON-Patch standard (RFC 6902). I was maintaining it for a
+						while.
+					</li>
+					<li><a href="https://github.com/Starcounter/starcounter-include">starcounter-include</a>:
+						A custom element that polyfills <strong><a
+								href="https://web.dev/declarative-shadow-dom/">Declarative Shadow
+								DOM</a> since 2016</strong>. I designed and implemented it in almost today's shape
+						before it
+						was even drafted by standard bodies.</li>
+					<li><a href="https://github.com/Juicy/imported-template">imported-template</a>: A
+						declarative way for HTML includes</li>
+					<li><a href="https://github.com/Palindrom/Palindrom">Palindrom</a>: A thin but powerful library to
+						simplify, and significantly improve the performance and developer experience of client-server
+						JSON
+						communication.</li>
+					<li><a href="https://github.com/Palindrom/JSON-Patch-OT-agent">JSON-Patch OT</a>:
+						Operational Transformations implemented over JSON Patch, to assert eventual consistency in
+						distributed JSON collaboration. Implemented it from scratch to work standalone as well as a core
+						of
+						Palindrom.</li>
+				</ul>
+			</li>
+			<li>Other open Web contributions<ul>
+					<li><a href="https://github.com/webcomponents/webcomponentsjs">webcomponentsjs</a>:
+						Web Components polyfills. Finding and fixing bugs for V1 and V0 era polyfills
+					</li>
+					<li><a href="https://github.com/Polymer/polymer">Polymer</a> (precursor of <a
+							href="https://lit.dev/">Lit</a>):
+						Very first library for creating Web Components. Finding and fixing bugs, adding features since
+						0.1.4
+						(2014)</li>
+
+					<li><a href="https://html.spec.whatwg.org/multipage/acknowledgements.html#acknowledgments">HTML
+							& DOM specifications</a>: not quite "-source" contribution. I feel honored, that my
+						comments,
+						ideas, questions, and early-adopter feedback were recognized there.</li>
+				</ul>
+			</li>
+		</ul>
+		<h3>Talks</h3>
+		<p>I made a few conference talks, some of them are still available online</p>
+		<ul>
+			<li>2015 <a
+					href="https://2015.webcampzg.org/talks/view/real-time-asynchronous-collaboration-on-json/">WebCamp
+					Zagreb - "Real-time, asynchronous collaboration on JSON</a> - <a
+					href="https://www.youtube.com/watch?v=bTG7pIyzr7A">video</a></li>
+			<li>2016 <a
+					href="https://github.com/tomalec/talks/tree/gh-pages/16.03.19%20-%20Warsaw%20-%20CSS%20Grid%20Layout%20-%20the%20only%20grid%20framework%20you%20need%20to%20know">meet.js
+					Summit 16 - "CSS Grid Layout - the only grid <s>framework</s> you need to know"</a> - <a
+					href="https://youtu.be/8xQWMf0NH_s?list=UU2aX7cPDv8Stij0kBCM_qgg">video</a></li>
+		</ul>
+	</main>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-61BV5KGX1Z"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-61BV5KGX1Z');
+	</script>
+</body>
+
+</html>
